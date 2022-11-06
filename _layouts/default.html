@@ -2,17 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/> 
     <link href="/assets/css/styles.css" rel="stylesheet"/>
     <link href="" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rotobo+Slab"/>
     <title>{{ site.title }}</title>
   </head>
-  <div id="header-bar">
-    <h1>{{ site.title }}</h1>
-    <h2 id="tagline">{{ site.description }}</h2>
+  <div id="header-container">
+    <div id="header-content">
+      <h1>{{ site.title }}</h1>
+      <h2 id="tagline">{{ site.description }}</h2>
+    </div>
   </div>
-  <div id="content">
-    {{ content }}
+  <div class="row">
+    <div id="content" class="column-left">
+      {{ content }}
+    </div>
+    <div id="tags" class="column-right">
+      <p>here be tags arr</p>
+    </div>
   </div>
   <body></body>
-</html>html5
+</html>
