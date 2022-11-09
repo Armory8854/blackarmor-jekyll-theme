@@ -1,3 +1,6 @@
 title: Blackarmor Theme
 description: A dark theme for Github pages by Armory8854
 show_downloads: true
+
+tag_page_layout: tag_page
+tag_page_dir: tag
