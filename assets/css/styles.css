@@ -3,6 +3,10 @@ html {
     color: #C4B6B6;
 }
 
+img {
+    max-width: 100%;
+}
+
 a {
     color: #FFDD93;
     text-shadow: 2px 2px 10px #7E7474;
